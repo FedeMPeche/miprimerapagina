@@ -4,26 +4,53 @@ li{
 }
 
 p{
+  box-shadow: 2px 2px 1px black;
   color: aliceblue;
-  font-size: 20px;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px black;
 }
 
 form{
   font: white;
 }
 
+textarea{
+  margin-top: 10px;
+  padding-top: 5%;
+  border: 3px solid black;
+  box-shadow: 2px 2px 1px black;
+}
+
+input{
+  margin-left: 1%;
+  padding-right: 15%;
+  border: 3px solid black;
+}
+
+button:hover{
+  color:#ee650a;
+}
+
+button{
+  border: 1px solid black;
+  margin-bottom: 1%;
+}
+
 h1{
-  color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 1px black;
+  color: rgb(251,183,63); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2{
-  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+  color: rgba(0,138,255,1);
 }
 
 h3{
+  text-shadow: 2px 2px 2px black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end;
-  margin-left: 90%;
+  margin-left: 100%;
   color: aliceblue;
 }
 
@@ -34,12 +61,15 @@ body{
 }
 
 header{
-  background: linear-gradient(90deg, rgba(2,0,36,0.025647759103641476) 0%, rgba(221,137,10,1) 32%, rgba(0,138,255,1) 94%);
-  color: #fff;
+  background: linear-gradient(90deg, rgba(2,0,36,0.00043767507002800965) 19%, rgba(221,137,10,0) 22%, rgba(0,95,255,0) 94%);
+  color: #a74005;
   text-align: center;
+  text-shadow: 2px 2px 0px black;
   padding: 20px;
   font-size: 60px;
   margin-left: 20%;
+  border: 3px solid black;
+  box-shadow: 2px 2px 1px black;
 }
 
 nav ul{
@@ -51,16 +81,20 @@ nav ul{
 nav li{
   display: inline-block;
   margin-right: 20px;
+  border: 3px solid black;
+  box-shadow: 2px 2px 0px 2px black;
 }
 
 nav a{
-  color: #fff;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px black;
   text-decoration:none;
   padding: 5px;
 }
 
 nav a:hover{
-  color: #1BF7DE;
+  color: #e76e0a;
+
 }
 
 .container{
@@ -109,7 +143,7 @@ nav a:hover{
   display: flex;
   padding: 10px;
   height: 50px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,137,10,1) 32%, rgba(0,138,255,1) 94%);
+  background: linear-gradient(90deg, rgba(2,0,36,0.00043767507002800965) 19%, rgba(221,137,10,0) 22%, rgba(0,95,255,0) 94%);
 }
 
 
@@ -134,12 +168,14 @@ li>a{
 
 
 li{
+  text-shadow: 2px 2px 1px black;
   list-style-type: none;
   font-size: 20px;
 }
 
 
 a{
+  text-shadow: 2px 2px 2px black;
   color: white;
   text-decoration: none;
 }
