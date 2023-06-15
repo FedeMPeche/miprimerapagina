@@ -47,10 +47,11 @@ h2{
 }
 
 h3{
+  display: flex;
   text-shadow: 2px 2px 2px black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end;
-  margin-left: 100%;
+  margin-left: 50%;
   color: aliceblue;
 }
 
