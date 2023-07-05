@@ -3,7 +3,7 @@ function showAlert() { alert("hola, esta es una alerta desde JavaScript"); }
 let boton = document.getElementById("miBoton");
 //añadimos un oyente al evento que escuche el evento click
 boton.addEventListener("click", function () {
-    alert("¡Haz hecho click aqui!")
+    alert("¡Contratame, no te arrepentirás!")
 });
 document.querySelector("button.button-menu-toggle")
     .addEventListener("click", function () {
